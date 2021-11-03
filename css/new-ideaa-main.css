@@ -1,0 +1,81 @@
+#main-page {
+  background-color: black;
+  color: blue;
+}
+
+#game-window {
+  border: darkblue;
+}
+
+#button-links {
+  border-color: black;
+  display: inline-grid;
+}
+#button-links:hover {
+  border: ridge;
+  border-color: darkblue;
+  display: inline-grid;
+  text-align: center;
+}
+
+#other-sites {
+  color: black;
+  background-color: black;
+  border-color: rgb(0, 0, 0);
+  display: inline-grid;
+}
+#other-sites:hover {
+  color: darkblue;
+  background-color: blue;
+  border-color: darkblue;
+  border-style: ridge;
+  display: inline-grid;
+}
+#other-sites:focus {
+  color: maroon;
+  border-color: darkblue;
+}
+
+#game-window {
+  display: block;
+}
+
+#object-buttons {
+  color: black;
+  background-color: black;
+  border-color: black;
+  display: inline-block:
+  text-align: center;
+}
+#object-buttons:hover {
+  color: darkblue;
+  background-color: blue;
+  border-color: darkblue;
+  text-align: center;
+  border-style: ridge;
+}
+#object-buttons:focus {
+  color: maroon;
+  border-color: darkblue;
+}
+
+#object-buttons-container, 
+#date_time {
+  color: black;
+  background-color: black;
+  border-color: black;
+  display: inline-grid;
+  text-align: center;
+}
+#object-buttons-container:hover, 
+#date_time:hover {
+  color: darkblue;
+  border-color: darkblue;
+  border-style: ridge;
+  display: inline-grid;
+}
+#object-buttons-container:focus, 
+#date_time:focus {
+  color: maroon;
+  botder: darkblue;
+}

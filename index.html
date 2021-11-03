@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/new-ideaa-main.css" />
+
+    <title>New Ideaa</title>
+  </head>
+  <body id="main-page">
+    <div id="object-buttons-container">
+      <script type="text/javascript" src="javascript/time.js"></script>
+      <span id="date_time"></span>
+      <button id="object-buttons" onclick="openFullscreen();">
+        fullscreen
+      </button>
+      <button id="object-buttons" onclick="refresh()">
+        refresh
+      </button>
+    </div>
+    <center>
+      <object id="game-window" data="pictures/object-main.png"></object>
+    </center>
+    <br />
+    <center>
+      <div id="button-links">
+        <button
+          id="other-sites"
+          onclick="(document.getElementById('game-window').data='https://krunker.io');"
+        >
+          krunker
+        </button>
+        <button
+          id="other-sites"
+          onclick="(document.getElementById('game-window').data='https://tankionline.com/play/');"
+        >
+          tanki
+        </button>
+        <button
+          id="other-sites"
+          onclick="(document.getElementById('game-window').data='https://shellshock.io');"
+        >
+          shellshock
+        </button>
+        <button
+          id="other-sites"
+          onclick="(document.getElementById('game-window').data='https://pixel-cave.com/play/zombie-hunters-arena/');"
+        >
+          zombie hunters arena
+        </button>
+        <button
+          id="other-sites"
+          onclick="(document.getElementById('game-window').data='https://www.supermechs.com/');"
+        >
+          supermechs
+        </button>
+        <button
+          id="other-sites"
+          onclick="(document.getElementById('game-window').data='https://www.warbrokers.io/');"
+        >
+          war brokers
+        </button>
+        <button
+          id="other-sites"
+          onclick="(document.getElementById('game-window').data='https://1v1.lol');"
+        >
+          1v1.lol
+        </button>
+        <button
+          id="other-sites"
+          onclick="(document.getElementById('game-window').data='https://copy.sh/v86/?profile=windows98');"
+        >
+          win 98
+        </button>
+        <button
+          id="other-sites"
+          onclick="(document.getElementById('game-window').data='https://iogames.space');"
+        >
+          io games recommended
+        </button>
+        <button
+          id="other-sites"
+          onclick="(document.getElementById('game-window').data='https://www.sparkchess.com/');"
+        >
+          chess
+        </button>
+        <button
+          id="other-sites"
+          onclick="(document.getElementById('game-window').data='https://redball17levels.com/red-ball-1.html');"
+        >
+          redball
+        </button>
+      </div>
+    </center>
+  </body>
+  <script type="text/javascript" src="javascript/fullscreen.js"></script>
+  <script type="text/javascript">
+    window.onload = date_time("date_time");
+  </script>
+  <script type="text/javascript" src="javascript/refresh.js"></script>
+</html>
