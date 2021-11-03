@@ -1,5 +1,6 @@
 function refresh() {
-  var object = (document.getElementById("game-window").data = "http://www.new-ideaa.gq/pictures/object-main.png");
+  if (!document.getElementById("game-window")) return false;
+  document.getElementById("game-window").setAttribute("data", "http://www.new-ideaa.gq/pictures/object-main.png");
 }
 
-setTimeout("refresh()", 3000);
+window.onload = changeData;
