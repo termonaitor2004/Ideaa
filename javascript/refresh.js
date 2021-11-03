@@ -3,4 +3,6 @@ function refresh() {
   document.getElementById("game-window").setAttribute("data", "http://www.new-ideaa.gq/pictures/object-main.png");
 }
 
-(alert)window.onload = changeData;
+window.addEventListener ? 
+window.addEventListener("load",refresh,false) : 
+window.attachEvent && window.attachEvent("onload",refresh());
